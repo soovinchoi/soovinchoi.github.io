@@ -1,0 +1,213 @@
+body {
+	background:black;
+	color: #020873;
+	margin: 0px;
+}
+
+p {
+	margin-left:40px;
+	font-size: 30px;
+	font-family: 'Julius Sans One', sans-serif;
+
+}
+
+img {
+	height: 400px;
+	width: 600px;
+}
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 50px;
+}
+h2 {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 25px;
+}
+.image1 {
+	display:flex;
+	width:480px;
+	height:700px;
+}
+
+.now {
+	background-color: navy;
+	color: #E3BC1E;	
+
+}
+
+.image2{
+	width:400px;
+	height:300px; 
+}
+
+.image3{
+	width:400px;
+	height:300px;
+
+}
+.image4{
+	width: 400px;
+	height:500px;
+}
+.image5{
+	width:400px;
+	height:300px;
+}
+.softlight{
+	margin:60px;
+
+
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	/*width:200px; */
+	overflow:hidden;
+	background-color:pink;
+	position:fixed;
+	font-family: 'Special Elite', cursive;
+}
+li {
+	float: left; 
+
+
+}
+li a {
+	display: block;
+	color: #010440;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-family: 'Special Elite', cursive;
+}
+
+li a:hover {
+	background-color:black;
+	color:#F2CF66;
+}
+
+.active {
+	background-color:#F2CF66;
+
+}
+.paragraph {
+	width:1000px;
+
+
+}
+.button{
+	background-color: green;
+	color:white;
+	border:none;
+	padding:15px 32px
+	text-align:center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+
+}
+.paragraph2 {
+	width:500px;
+}
+
+.horizontal-scroll-wrappersquares {
+	width: 100px;
+	height: 300px;
+	overflow-y:auto;
+	overflow-x: hidden;
+	transform: rotate(-90deg) translate
+	transform-origin: right top;
+}
+
+.horizontal-scroll-wrappersquares >div {
+	width: 900px;
+	height:900px;
+
+
+	transform: rotate(90deg);
+	transform-origin:right top;
+} </div>
+
+.paragraph3 {
+	width:400px;
+}
+.paragraph0 {
+	font-size: 15px;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  margin:0px;
+  font-family:'Special Elite', cursive;
+  text-align:left;
+
+}
+
+#container {
+  color:#999;
+  text-transform: uppercase;
+  font-size:20px;
+  font-weight:bold;
+  padding-top:200px;  
+  position:fixed;
+  width:100%;
+  bottom:30%;
+  display:block;
+  color:#010440;
+}
+
+#flip {
+  height:30px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:#010440;
+}
+#flip div:first-child div {
+  background:#010440;
+}
+#flip div:last-child div {
+  background:#010440;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+p {
+  position:fixed;
+  width:100%;
+  bottom:30px;
+  font-size:18px;
+  color:#;
+  margin-top:200px;
+}
+
+.moving {
+	margin:100px;
+
+}

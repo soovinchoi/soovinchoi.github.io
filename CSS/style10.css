@@ -1,0 +1,61 @@
+body {
+	background-color: black;
+	color: black;
+	margin: 0px;
+
+}
+.flex-container{
+	display:flex;
+}
+.img1 {margin-top: 10px;
+	size: 40px;
+	height:85px;
+	width:100px;
+ }
+
+ .neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #A60303,
+    0 0 20px #A60303,
+    0 0 40px #A60303,
+    0 0 80px #A60303,
+    0 0 90px #A60303,
+    0 0 100px #A60303,
+    0 0 150px #A60303;
+}
+
+
+
+
+/* general styling */
+:root {
+  font-size: calc(1vw + 1vh + 1.5vmin);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+body {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Poiret One', cursive;
+    sans-serif;
+  font-size: /*1rem;*/ 20px;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}

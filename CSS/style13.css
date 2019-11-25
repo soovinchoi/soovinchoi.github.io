@@ -1,0 +1,103 @@
+ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+  font-family: 'Alata', sans-serif;
+}
+
+li a {
+  display: block;
+  color: #A60303;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: 'Alata', sans-serif;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #A60303;
+  color: #05C7F2;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+body{
+  background-color: black;
+  color: white;
+  margin:0px;
+}
+img {
+  width:500px;
+  height:340px;
+}
+p {
+  font-family: 'Abril Fatface', cursive;
+  font-size:50px;
+}
+.name {
+  font-family:'Abril Fatface', cursive;
+}
+body {
+  background-color: black;
+  color: black;
+  margin: 0px;
+
+}
+.flex-container{
+  display:flex;
+}
+.img1 {margin-top: 10px;
+  size: 40px;
+  height:85px;
+  width:100px;
+ }
+
+ .neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #A60303,
+    0 0 20px #A60303,
+    0 0 40px #A60303,
+    0 0 80px #A60303,
+    0 0 90px #A60303,
+    0 0 100px #A60303,
+    0 0 150px #A60303;
+}
+
+
+
+
+/* general styling */
+:root {
+  font-size: calc(1vw + 1vh + 1.5vmin);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+body {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Poiret One', cursive;
+    sans-serif;
+  font-size: /*1rem;*/ 20px;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}

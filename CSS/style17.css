@@ -1,0 +1,202 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  margin-bottom:100px;
+
+}
+
+p {
+  margin-left:80px;
+  font-size: 20px;
+  font-family:'Zilla Slab', serif;
+width:1000px;
+padding-left:120px;}
+h1{
+  font-family: 'Homemade Apple', cursive;
+  font-size: 30px;
+  margin-top:40px;
+}
+h2 {
+font-family: 'Zilla Slab', serif;
+
+font-size:15px;
+color:#8C1620;
+}
+ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+  /*width:200px; */
+  overflow:hidden;
+  background-color:black;
+  position:fixed;
+  font-family: 'Alata',sans-serif;
+}
+li {
+  float: left; 
+
+}
+li a {
+  display: block;
+  color: #D94141;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family:'Alata',sans-serif;
+}
+
+li a:hover {
+  background-color:#D94141;
+  color:black;
+}
+
+.active {
+  background-color:#7C8C03;
+}
+.paragraph {
+  width:1000px;
+}
+
+
+
+*{margin: 0; padding: 0;}
+body{background-color: black;}
+
+.container
+{display:flex;
+  padding-left:160px;
+  width: 100%;
+  height: 100%;
+}
+.trans
+{
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+}
+.top
+{
+  display: flex;
+  width: 100px;
+  height: 100px;
+ 
+}
+
+
+.top ul
+{
+  list-style: none;
+  width: 70%;
+  height: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.top ul li
+{
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+
+.top ul li:hover::before
+{
+  opacity: 0;
+  background-color: rgba(0,0,0,0.90);
+}
+.top ul li img
+{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.lightbox
+{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+}
+.lightbox img
+{
+  max-width: 90%;
+  max-height: 80%;
+  position: relative;
+  top: -100%;
+  /* Transition */
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+.lightbox:target
+{
+  outline: none;
+  top: 0;
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 1.2s ease;
+  -moz-transition: all 1.2s ease;
+  -ms-transition: all 1.2s ease;
+  -o-transition: all 1.2s ease;
+  -webkit-transition: all 1.2s ease;
+}
+.lightbox:target img
+{
+  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
